@@ -1,5 +1,5 @@
 #comment
-print("Hello Python")
-print(2+2)
+print("Hello", "Python", sep='?',end=' ')
+
 
 

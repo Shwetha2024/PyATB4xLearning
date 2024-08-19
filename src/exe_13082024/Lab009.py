@@ -46,3 +46,12 @@ print(b1[2])
 
 d={1:"first case",2:"second case","check":891}
 print(d["check"])
+
+num=int(input("Enter a number of your choice: "))
+print(f"{num}*1={(num*1):.2f}")
+print(f"{num}*10={(num*10):.4f}")
+print(f"{num}*10={num*10:.4f}")
+
+none_name=None
+print(none_name)
+print(type(none_name))

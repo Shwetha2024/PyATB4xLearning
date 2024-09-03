@@ -29,5 +29,5 @@ elif score >=100:
     grade = 'Topper'
     print("Your grade is", grade)
 else:
-    grade = 'F'
+    grade = 'Fail'
     print("Your grade is", grade)

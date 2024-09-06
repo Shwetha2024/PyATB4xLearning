@@ -1,0 +1,6 @@
+my_tuple=("pencil","pen","eraser")
+print(my_tuple)
+conv=list(my_tuple)
+print(conv)
+conv=tuple(my_tuple)
+print(conv)

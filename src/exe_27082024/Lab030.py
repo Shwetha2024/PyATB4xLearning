@@ -1,8 +1,8 @@
 #wrapper
 
-def decorate(a):
+def decorate1(a):
     def wrapper():
-        print("take out the vessel and vegetables")
+        print("decorator 1:take out the vessel and vegetables")
         print("switch on the gas")
         a()
         print("switch off the gas and the meal is ready")
@@ -10,16 +10,18 @@ def decorate(a):
 
 def decorate2(a):
     def wrapper():
-        print("take out the vessel and vegetables")
+        print("decorator 2:take out the vessel and vegetables")
         print("switch on the gas")
         a()
         print("switch off the gas and the meal is ready")
     return wrapper()
 
-@decorate
+@decorate1
 @decorate2
 def cooking():
     print("Cook the food")
+
+
 
 
 
